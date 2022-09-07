@@ -5,42 +5,35 @@
 ## User Story
 
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
 ```
-
-## Changes made
-
-- added title describing the company
-- added semantic tags (header, nav, section, article, aside, footer)
-- added alt text for images
-- condenced css and removed repeating code
-- re-organized css classes to better match sections in html
-- fixed missing id to make menu link work correctly
-- commented HTML and CSS for readability and clarity
-
 
 ## Screenshot
 
-![HoriseonScreen](https://github.com/kwc2894/kwc2894.github.io-code-refactor/blob/main/assets/images/screenshotExample.png)
+
 
 ## Deployed page
 
-Page published at: https://github.com/kwc2894/kwc2894.github.io-code-refactor
+Page published at: 
