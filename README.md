@@ -34,6 +34,6 @@ THEN I am taken to the corresponding section of the README
 
 
 
-## Deployed page
+## video recording: https://github.com/kwc2894/READMEGenerator/blob/main/Screen%20Recording%202022-09-07%20at%2011.40.18%20PM.mov
 
-Page published at: 
+Page published at: https://github.com/kwc2894/READMEGenerator
